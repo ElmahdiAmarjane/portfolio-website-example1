@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+}
+.header{
+    background-color: #21232F;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI';
+    font-weight: 100;
+}
+.title{
+    height: max-content;
+    font-weight: 400;
+}
+.lists ul{
+    display: flex;
+    list-style:none;
+ 
+    
+}
+.lists ul li{
+    margin: 0px 15px ;
+}
+.lists ul li:hover{
+    color: #8cf5ab;
+    font-weight: 200;
+    transition: 1s;
+    cursor: pointer;
+  
+}
+.container{
+    height: 90vh;
+    background-color: #21232F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+   
+    width: 50%;
+    height: 60%;
+    font-family: 'Lucida Sans';
+    padding-left: 60px;
+    color: white;
+    margin-top: 40px;
+
+}
+.text h3 , .text h1 , .text p{
+    margin-bottom: 10px;
+}
+.text h1 {
+    font-family: 'Young Serif', serif;
+    letter-spacing: 2px;
+}
+.text p{
+   font-size: 10px;
+}
+.mypicture{
+    width: 50%;
+  
+}
+.mypicture img {
+    width: 100%;
+}
+.socialMedia img{
+    width: 20px;
+    margin-right: 10px;
+}
+.btn-download {
+     width: 120px;
+     padding: 5px;
+     margin-top: 15px;
+     background-color: #75EAFD;
+      font-weight:600;
+      font-family: system-ui;
+      border-radius: 20px;
+     border: 4px solid #21232F ;
+      
+}
+.btn-download:hover {
+    background-color: #21232F;
+    color: #fff;
+    border-color: #21232F;
+    animation-name: downloadcv;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+     animation-timing-function:ease;
+     animation-fill-mode: forwards;
+     
+
+}
+
+@keyframes downloadcv {
+    25%{
+      
+        border-left:4px solid  #75EAFD;
+        
+
+    }
+    50%{
+        border-top: 4px solid #75EAFD;
+       
+       
+    }
+    75%{
+        border-right: 4px solid #75EAFD;
+      
+    }
+    100%{
+        border: 4px solid #75EAFD;
+        
+    }
+}
+
